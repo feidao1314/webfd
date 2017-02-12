@@ -1,0 +1,162 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta charset=utf-8" />
+
+<link href="css/login.css" rel="stylesheet" type="text/css">
+<script src="js/login.js"></script>
+
+<title>楚楚街-登录</title>
+</head>
+
+<body>
+<div id="body">
+
+ <!--顶部-->
+  <div class="clearfix" id="tit_pic">
+		<a href="index.html"><img/img1  src="img/img1/20150520091050.jpg" /></a>
+    <ul>
+      <li id="logt_li1">担保交易</li>
+      <li id="logt_li2">闪电发货</li>
+      <li id="logt_li3">小编验货</li>
+      <li id="logt_li4">9天无理由退货</li>
+      </ul>
+    <div class="clearfix"></div>
+  </div>
+<!--中间-->
+<div id="middle">
+  <div id="middle_left">
+  	<img  src="img/登录/log.jpg"/>
+  </div>
+  <div id="middle_right">
+  	<div id="tit">
+  		<div id="fon1">登录楚楚街</div>
+  		<div id="fon2">还没有楚楚账号？<a href="register.html">30秒注册</a></div>
+  	</div>
+    <div style="height:20px; line-height:20px;">
+    											&nbsp;&nbsp;&nbsp;
+    	<input name="radio" type="radio" value="" checked  onclick="change(1)"/>普通登录
+    											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    	<input name="radio" type="radio" value="" onclick="change(2)" />手机动态密码登录
+    </div>
+    <div id="form">
+      	<div id="right2">
+        	<form action="index.html" method="post"  onsubmit="return show11()">
+           	<div>
+           	  	<input name="" type="text" id="yyzsj" value="" 
+           	  		size="42" placeholder="已验证手机/邮箱/用户名" 
+           	  		autofocus="" autocomplete="off" onblur="show5()" />
+           	</div>
+            <div id="yz1">手机号码格式不正确</div>
+				<div style="margin-top:20px;">
+				<input name="" type="password" id="mm" value="" 
+					size="42" placeholder="密码" autofocus="" 
+					autocomplete="off" onblur="show6()" />
+			</div>
+			<div id="yz2">密码格式不正确，请输入6-14位的字符</div>
+            <div style=" margin-top:15px;">
+            	<input name="" type="checkbox" value="" />自动登录
+            	<a href=""><span id="fon3">忘记密码？</span></a>
+            </div>
+            <div style="margin-top:10px;">
+            	<input class="sub" name="" type="submit" value="登录"  size="46" />
+            </div>
+        	</form>
+        </div>
+        <div id="right3">
+			<form action="index.html" method="post"  onsubmit="return show12()">
+           	<div>
+           	  	<input name="" type="text" id="yzcdsjhm" value="" 
+           	  		style="height:36px;" size="46" placeholder="已注册的手机号码" 
+           	  		autofocus="" autocomplete="off" onblur="show7()" />
+            </div>
+            <div id="yz3">手机号码格式不正确</div>
+            <div style=" margin-top:15px;">
+            	<input name="" type="text" id="yzm" 
+            		style="height:38px" value="" size="17" placeholder="验证码" 
+            		autofocus="" autocomplete="off" onblur="show8()" />&nbsp;
+            		<img src="img/登录/101010.jpg" align="absbottom" />
+            		<a>换一张</a>
+            </div>
+            <div id="yz4">验证码错误</div>
+            <div style=" margin-top:15px;">
+            	<input name="" type="text" id="dxjym" 
+            		style="height:36px" value="" size="46" placeholder="短信校验码" 
+            		autofocus="" autocomplete="off" />
+            </div>
+            <div id="yz5">校验码错误</div>
+            <div style=" margin-top:15px;">
+            	<input name="" type="checkbox" value="" />自动登录
+            </div>
+            <div>
+            	<input type="submit"  id="t3" value="登陆" name="sjhCommit" onblur="show9()">
+            </div>
+			</form>
+        </div>
+    </div>
+    <div>
+      	<div style=" margin-left:30px;">你也可以使用以下账号登录</div>
+        <div id="company">
+        	<ul>
+            	<li><img src="img/登录/qqq.jpg"></li>
+                <li><img src="img/登录/www.jpg"></a></li>
+                <li><img src="img/登录/rrr.jpg"></li>
+                <li><img src="img/登录/eee.jpg"></li>
+                <li><img src="img/登录/ttt.jpg"></li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="bodt"><img  src="img/登录/01.jpg"/></div>
+    <div class="bodl"><img  src="img/登录/02.jpg"/></div>
+    <div class="bodr"><img  src="img/登录/03.jpg"/></div>
+  </div>
+</div>
+<!--底部-->
+	<div id="footer">
+		<img/img1  src="IMG/img1/ftlogo.png" id="IMG"/>
+    	<div id="footer_dl">
+    	<ul>
+    		<li class="d1">商家入口</li>
+        	<li><a href="#">商家入驻</a></li>
+    	</ul>
+    	<ul>
+    		<li class="d1">关于我们</li>
+        	<li><a href="#">醋溜科技</a></li>
+        	<li><a href="#">加入我们</a></li>
+        	<li><a href="#">客服电话</a></li>
+    	</ul>
+    	<ul>
+    		<li class="d1">友情链接</li>
+        	<li><a href="#">应用宝</a></li>
+        	<li><a href="#">豌豆荚</a></li>
+    	</ul>
+    	<ul>
+    		<li class="d1">关注我们</li>
+        	<li><a href="#">新浪微博</a></li>
+        	<li><a href="#">QQ空间</a></li>
+    	</ul>
+    	<ul>
+    		<li class="d1">微信公众号</li>
+        	<li><a href="#"><img/img1  src="img/img1/20150511233737.jpg"/></a></li>
+    	</ul>
+    	<ul id="foot_u2">
+    		<li class="d1">App下载</li>
+        	<li class="foot_l2">
+        		<a href="#"><img/img1  src="img/img1/20150511233824.jpg"/></a>
+        	</li>
+    	</ul>
+    </div>
+	</div>
+	<div id="footer_copyright">
+		<div style="text-align:center;">
+			Copyright @ 2011-2017 www.chuchujie.com all Rights Reserved 
+			客服电话400-0324-600
+		</div>
+		<div style="margin-top:8px; text-align:center;">
+			京ICP备13050668号&nbsp;京公安网安备11010802015512号&nbsp;
+			增值电信业务经营许可证京ICP证140532号</div>
+ 	</div>
+</div>
+</body>
+</html>
