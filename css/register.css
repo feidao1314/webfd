@@ -1,0 +1,172 @@
+/*整体*/
+body {
+	margin:0px;
+	}
+#body {
+	width:1341px;
+	margin:0 auto;
+	border:1px solid #999;
+	color:#666;background:
+	white;font-size:13px; 
+	position:relative;
+	}
+a {
+	text-decoration:none;
+	color:#666;
+	}
+a:hover {
+	color:#f01a61;
+	}
+ul {
+	list-style:none; 
+	margin:0px; 
+	padding:0px;
+	}
+/*顶部*/
+#tit_pic{
+	height:100px;
+	margin:0px; 
+	background-color:white; 
+	padding-top:10px; 
+	padding-left:150px;
+	}
+#tit_pic ul{
+	float:right; 
+	margin-right:150px;
+	margin-top:20px;
+	}
+#tit_pic ul li{
+	padding-left:47px; 
+	font-size:13px; 
+	float:left; 
+	height:42px; 
+	line-height:42px; 
+	margin-left:20px;
+	}
+#logt_li1{
+	background:url(../img/img1/20150525182335.jpg) no-repeat 0 0px;	
+	}
+#logt_li2{
+	background:url(../img/img1/20150525182435.jpg) no-repeat 0 0px;	
+	}
+#logt_li3{
+	background:url(../img/img1/20150525182522.jpg) no-repeat 0 0px;	
+	}
+#logt_li4{
+	background:url(../img/img1/20150525182554.jpg) no-repeat 0 0px;	
+	}
+/*中间*/
+#middle{
+	height:500px;
+	width:100%; 
+	margin-top:35px;
+	}
+#middle_left{
+	float:left;
+	margin-left:150px; 
+	width:45%; 
+	text-align:center;
+	}
+#middle_right{
+	float:right; 
+	margin-right:150px; 
+	width:28%; 
+	position:relative;
+	}
+#tit{ 
+	height:80px; 
+	line-height:70px;
+	}
+#fon1{ 
+	display:inline-block; 
+	width:120px; 
+	float:left; 
+	font-weight:bolder; 
+	font-size:19px; 
+	color:#f01a61; 
+	margin-left:20px;
+	}
+#fon2{
+	display:inline-block; 
+	float:right; 
+	margin-right:30px;
+	}
+#fon2 a{
+	color:#f01a61;
+	}
+
+#form div{
+	margin-top:10px; 
+	margin-left:30px;
+	}
+
+#yz1{
+	display:none; 
+	color:red; 
+	font-size:14px;
+	}
+#yz2{
+	display:none; 
+	color:red; 
+	font-size:14px;
+	}
+#yz3{
+	display:none; 
+	color:red; 
+	font-size:14px;
+	}
+#yz4{
+	display:none; 
+	color:red; 
+	font-size:14px;
+	}
+#yz5{
+	display:none; 
+	color:red; 
+	font-size:14px;
+	}
+
+/*底部*/
+#footer{
+	background-color:white;
+	padding-left:120px;
+	height:180px; 
+	border-bottom:1px solid #CCC;
+	border-top:1px solid #CCC; 
+	position:relative;
+	}
+#footer #IMG{
+	display:inline-block; 
+	margin-top:30px; 
+	width:140px; 
+	padding:0px; 
+	float:left;
+	}
+#footer_dl{
+	margin-left:315px;
+	}
+#footer .d1,#footer_lin .d2{ 
+	width:100px; 
+	color:#333; 
+	font-weight:bold; 
+	font-size:14px; 
+	margin-bottom:20px;
+	}
+#footer #foot_u2{ 
+	float:right; 
+	margin-right:155px;
+	}
+#footer ul{
+	float:left; 
+	margin-top:28px; 
+	padding:0px;
+	}
+#footer ul li{
+	margin-top:10px;
+	}
+#footer_copyright{
+	color:#666; 
+	background-color:white; 
+	padding-top:13px; 
+	padding-bottom:13px;
+	}

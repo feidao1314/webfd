@@ -1,0 +1,266 @@
+/*整体*/
+#body {
+	width:1351px;
+	margin:0 auto;
+	border:1px solid #999; 
+	height:1380px;
+	color:#666;
+	background:#ECECEC;
+	font-size:13px;
+	}
+body{ 
+	margin:0px;
+	margin:0px;
+	font-size:13px;
+	color:#666;
+	}
+a {
+	text-decoration:none;
+	color:#666;
+	}
+a:hover {
+	color:#f01a61;
+	}
+ul {
+	list-style:none;
+	}
+.clearfix{
+	zoom:1;
+	}
+.clearfix:after{
+	display: block;
+	clear: both;
+	content: '';
+	height: 0;
+	visibility: hidden;
+	}
+/*顶部*/
+#search1 {position:absolute;padding-left:100px;}
+
+.site_logo{ 
+	margin-top:20px; 
+	float:left;
+	}
+.site_icon{ 
+	margin-top:28px; 
+	float:right;
+	}
+.site_icon li{ 
+	line-height:37px; 
+	color:#666; 
+	margin-left:20px; 
+	padding-left:46px; 
+	float:right;
+	}
+.site_icon li.bg1{ 
+	background:url(../img/comm/顶部照片/t_icon_1.png) no-repeat left center;
+	}
+.site_icon li.bg2{ 
+	background:url(../img/comm/顶部照片/t_icon_2.png) no-repeat left center;
+	}
+.site_icon li.bg3{ 
+	background:url(../img/comm/顶部照片/t_icon_3.png) no-repeat left center;
+	}
+.site_icon li.bg4{ 
+	background:url(../img/comm/顶部照片/t_icon_4.png) no-repeat left center;
+	}
+/*导航栏*/
+#container ul {
+	margin:0px;
+	padding:0px;
+	padding-left:120px;
+	background-color:#ff538c;
+	height:41px;
+	margin-top:100px;
+	}
+#container ul li {
+	float:left;
+	width:125px;
+	height:41px;
+	line-height:41px;
+	text-align:center;
+	}
+#container li a {
+	color:white;
+	font-size:14px;
+	font-weight:bold;
+	}
+#container li:hover {
+	background-color:#f01a61;
+	}
+/*内容*/
+#content {
+	margin:30px auto;
+	position:relative;
+	height:1600px;
+	}
+#content_tit {
+	height:40px;
+	line-height:40px;
+	position:relative;
+	}
+#content #content_left {
+	width:300px;
+	position:absolute;
+	top:0px;
+	left:120px;
+	text-align:center;
+	}
+#content #content_right {
+	width:70px;
+	position:absolute;
+	top:0px;
+	right:120px; 
+	z-index:50;
+	}
+/*底部*/
+#load0{ 
+	padding-top:60px;
+	}
+#load {
+	position:absolute;
+	padding-left:120px;
+	z-index:9;
+	}
+#load1 {
+	margin-top:200px;
+	position:absolute;
+	background-color:#FFF;
+	z-index:9;
+	}
+#load2 {
+	background-color:#FFF;
+	text-align:center;
+	position:absolute;
+	width:1350px;
+	height:50px;
+	padding-top:20px;
+	margin-top:380px;
+	z-index:9;
+	}
+/*计时器*/
+#timmer{
+	height:35px;
+	line-height:35px;
+	color:black;
+	font-size:12px;
+	background-color:#FFF;
+	width:180px;
+	}
+/*品牌团动画效果*/
+#f1{
+	position:relative;
+	overflow:hidden;
+	}
+#f11{ 
+	position:absolute;
+	right:-265px;
+	bottom:0px;
+	}
+#f111{
+	width:20px;
+	height:85px;
+	position:absolute;
+	left:-20px;
+	bottom:0px;
+	color:#36F; 
+	background:#FFF;
+	}
+
+#f2{
+	position:relative; 
+	overflow:hidden;
+	}
+#f22{ 
+	position:absolute;
+	right:-265px;
+	bottom:0px;
+	}
+#f222{
+	width:20px;
+	height:85px;
+	position:absolute;
+	left:-20px;
+	bottom:0px;
+	color:#36F; 
+	background:#FFF;
+	}
+
+#f3{
+	position:relative; 
+	overflow:hidden;
+	}
+#f33{ 
+	position:absolute; 
+	top:0px;
+	right:-265px;
+	bottom:0px;
+	}
+#f333{
+	width:20px;
+	height:85px;
+	bottom:0px;
+	position:absolute; 
+	left:-20px;
+	top:180px;
+	color:#36F; 
+	background:#FFF;
+	}
+
+#f4{
+	position:relative; 
+	overflow:hidden;
+	}
+#f44{ 
+	position:absolute;
+	right:-265px;
+	bottom:0px;
+	}
+#f444{
+	width:20px;
+	height:85px;
+	position:absolute; 
+	top:180px;
+	left:-20px;
+	bottom:0px;
+	color:#36F; 
+	background:#FFF;
+	}
+
+#f5{
+	position:relative; 
+	overflow:hidden;
+	}
+#f55{ 
+	position:absolute;
+	right:-265px;
+	bottom:0px;
+	}
+#f555{
+	width:20px;
+	height:85px;
+	position:absolute;
+	left:-20px;
+	bottom:0px;
+	color:#36F; 
+	background:#FFF;
+	}
+
+#f6{
+	position:relative; 
+	overflow:hidden;
+	}
+#f66{ 
+	position:absolute;
+	right:-265px;
+	bottom:0px;
+	}
+#f666{
+	width:20px;
+	height:85px;
+	position:absolute;
+	left:-20px;
+	bottom:0px;
+	color:#36F; 
+	background:#FFF;
+	}

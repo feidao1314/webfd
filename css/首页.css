@@ -1,0 +1,153 @@
+/*整体*/
+body{
+	margin:0;
+	padding:0;
+	color: #666;
+    font-size: 13px
+	}
+i,em{ 
+	font-style:normal;
+	}
+ul{
+	list-style:none;
+	}
+a{
+	text-decoration:none;
+	}
+img{
+	border:0;
+	}
+/*顶部*/
+.wrap{
+	width:1080px;
+	margin:0 auto;
+	}
+.fl-l{ 
+	float:left;
+	}
+.fl-r{ 
+	float:right;
+	}
+.clearfix:after{
+	display: block;
+	clear: both;
+	content: '';
+	height: 0;
+	visibility: hidden;
+	}
+.clearfix{
+	zoom:1;
+	}
+.container{
+	width:100%;
+	}
+.textct{ 
+	text-align:center;
+	}
+.align-middle{ 
+	vertical-align:middle;
+	}
+.positionR{ 
+	position:relative;
+	}
+.Ndisplay{ 
+	display:none;
+	}
+
+.header{ 
+	height:90px;
+	}
+.header .logo{
+	padding-top:5px;
+	}
+
+.nav{
+	padding-top:25px; 
+	color:#aaa; 
+	line-height:38px; 
+	font-size:14px;
+	}
+.nav em{ 
+	display:inline-block; 
+	font-size:10px;
+	}
+.nav a{ 
+	color:#222; 
+	margin:0 14px; 
+	display:inline-block;
+	}
+.nav a.last{ 
+	margin:0 0 0 14px;
+	}
+.nav a:hover,.nav a.on{ 
+	color:#fe5164; 
+	background:url(../img/首页/icon_bg.png) no-repeat left bottom; 
+	background-size:100% 2px;
+	}
+/*中部*/
+.banner{ 
+	background:#fe5164; 
+	height:520px;
+	}
+.jbr_daiyan{ 
+	position:absolute; 
+	top:122px; 
+	left:0;}
+.ccj_xz{ 
+	width:535px;}
+.ccj_xz .mark{
+	margin:150px 0 0 130px;
+	}
+.ccj_xz .code{ 
+	width:200px; 
+	padding-top:30px;
+	}
+.ccj_xz .load{ 
+	width:285px;
+	}
+.ccj_xz .load .load_list{ 
+	padding-top:40px;
+	}
+.ccj_xz .load .load_list a{ 
+	height:70px; 
+	line-height:70px; 
+	display:block; 
+	color:#FFF; 
+	font-size:24px; 
+	border:solid 2px #FFF; 
+	border-radius:3px; 
+	margin-bottom:28px;
+	}
+.ccj_xz .load .load_list .img_1{
+	margin:0 32px 4px 0;
+	}
+.ccj_xz .load .load_list .img_2{
+	margin:0 30px 4px 12px;
+	}
+
+.ccj_service{ 
+	padding:35px 45px 50px 0; 
+	width:570px;
+	}
+.ccj_service span{ 
+	color:#fe5164; 
+	font-size:24px; 
+	line-height:32px; 
+	margin-bottom:23px; 
+	display:inline-block; 
+	padding-left:110px;}
+.ccj_service span img{ 
+	margin-right:20px;
+	}
+/*底部*/
+#load1{
+	background-color:#FFF;
+	text-align:center;
+	position:absolute;
+	width:1350px;
+	height:50px;
+	padding-top:20px;
+	margin-top:20px;
+	z-index:9;
+	}
+
